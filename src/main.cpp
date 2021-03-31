@@ -35,7 +35,7 @@ map<uint256, CBlockIndex*> mapBlockIndex;
 // uint256 hashGenesisBlock("0xb477d9bc0721a1b96547495404583d68123f471fdd1d4058a9adff2fa7452298");
 // specialized genesis block may or may not work -- CONFIG
 // uint256 hashGenesisBlock("0xa95a9bc74e9793756a347323ce3f5386ceffff972b8adef7ffff24eaf618a764");
-uint256 hashGenesisBlock("67dffb61547473d29670e350d24e1a1a862c246f3010aca58dba57c48e74b325");
+uint256 hashGenesisBlock("0x6702d6d986eceaf4ae5778a4c380a79450e7390bbf6cc7075af090f1c51d9240");
 
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -2078,7 +2078,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb8;
         pchMessageStart[3] = 0xdb;
-        hashGenesisBlock = uint256("0x6f333ffd9b3430b6702a4f0ca9b9b868497f5c83898d4166c8fa78e0b5887814");
+        hashGenesisBlock = uint256("0x67dffb61547473d29670e350d24e1a1a862c246f3010aca58dba57c48e74b325");
     }
 
     //
@@ -2115,13 +2115,13 @@ bool LoadBlockIndex(bool fAllowNew)
         block.nTime    = 1617133348; //epochtime
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 0;
-
+/*
         if (fTestNet)
         {
             block.nTime    = 1617133350;
             block.nNonce   = 0;
         }
-
+*/
         //// debug print
         printf("DEBUG this is for debugging purposes of merkle root and block hash \n");
         printf("this is the transaction info for the first sealing: \n");
@@ -2133,7 +2133,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
 
         // assert(block.hashMerkleRoot == uint256("0xa58c3dc45c902567682edae9a0f89717e917fb9377c4b86ead909b2416110fc6"));
-        assert(block.hashMerkleRoot == uint256("0x90f017e94dc3845afe9a11a0c8f1e20f32ae2016997a110f77827d3da381b9b6"));
+        assert(block.hashMerkleRoot == uint256("0xf7cfb91fa1eaf7c97380c13cf721390b1e0d37adb57bb3ff3da5f172825b7550"));
 
         // If genesis block hash does not match, then generate new genesis hash.
         if (false && block.GetHash() != hashGenesisBlock)

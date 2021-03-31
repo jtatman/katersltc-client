@@ -1,5 +1,5 @@
 FROM ubuntu:20.04 as builder
-LABEL maintainer="Sophie Luna Schumann <docker@luna.vg>"
+LABEL maintainer="James Tatman <tatman@tatmantech.com>"
 
 # Essential packages
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y git ca-certificates build-essential gcc make libupnp-dev libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev libdb5.3++-dev libdb5.3-dev libminiupnpc-dev && apt-get clean
