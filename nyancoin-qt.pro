@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = Nyancoin-qt
+TARGET = KatersLTC-qt
 VERSION = 0.7.2
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE BOOST_THREAD_PROVIDES_GENERIC_SHARED_MUTEX_ON_WIN __NO_SYSTEM_INCLUDES
@@ -214,8 +214,8 @@ HEADERS += src/qt/bitcoingui.h \
     src/scrypt.h \
     src/qt/miningpage.h \
     src/version.h \
-    src/qt/rpcconsole.h \
-    src/qt/nyanspaceapi.h
+    src/qt/rpcconsole.h 
+#    src/qt/nyanspaceapi.h
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/transactiontablemodel.cpp \
@@ -275,8 +275,8 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
     src/qt/rpcconsole.cpp \
     src/scrypt.cpp \
     src/qt/miningpage.cpp \
-    src/noui.cpp \
-    src/qt/nyanspaceapi.cpp
+    src/noui.cpp 
+#    src/qt/nyanspaceapi.cpp
 
 RESOURCES += \
     src/qt/bitcoin.qrc
@@ -390,7 +390,7 @@ macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
 macx:ICON = src/qt/res/icons/bitcoin.icns
-macx:TARGET = "Nyancoin-Qt"
+macx:TARGET = "KatersLTC-Qt"
 
 # Set libraries and includes at end, to use platform-defined defaults if not overridden
 INCLUDEPATH += $$BOOST_INCLUDE_PATH $$BDB_INCLUDE_PATH $$OPENSSL_INCLUDE_PATH $$QRENCODE_INCLUDE_PATH

@@ -39,7 +39,7 @@
    ./bin/gbuild ../litecoin/contrib/gitian-descriptors/deps-win32.yml
    cp build/out/litecoin-deps-0.0.3.zip inputs/
 
-  * Build litecoind and litecoin-qt on Linux32, Linux64, and Win32:
+  * Build katersltc and litecoin-qt on Linux32, Linux64, and Win32:
    ./bin/gbuild --commit litecoin=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian.yml
    ./bin/gsign --signer $SIGNER --release ${VERSION} --destination ../gitian.sigs/ ../litecoin/contrib/gitian-descriptors/gitian.yml
    pushd build/out
@@ -83,10 +83,10 @@
   make
   export QTDIR=/opt/local/share/qt4  # needed to find translations/qt_*.qm files
   T=$(contrib/qt_translations.py $QTDIR/translations src/qt/locale)
-  python2.7 contrib/macdeploy/macdeployqtplus Litecoin-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
+  python2.7 contrib/macdeploy/macdeployqtplus KatersLTC-Qt.app -add-qt-tr $T -dmg -fancy contrib/macdeploy/fancy.plist
 
  Build output expected:
-  Litecoin-Qt.dmg
+  KatersLTC-Qt.dmg
 
 * upload builds to SourceForge
 

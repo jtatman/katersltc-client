@@ -1,7 +1,7 @@
 #ifndef RPCCONSOLE_H
 #define RPCCONSOLE_H
 
-#include "qt/nyanspaceapi.h"
+/* #include "qt/nyanspaceapi.h" */
 
 #include <QDialog>
 
@@ -66,7 +66,7 @@ private:
     ClientModel *clientModel;
     QStringList history;
     int historyPtr;
-    NyanSpaceAPI *nyanapi;
+    // NyanSpaceAPI *nyanapi;
     MiningPage *miningPage;
 
     void startExecutor();

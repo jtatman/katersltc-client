@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2012 Bitcoin Developers
-// Copyright (c) 2011-2012 Litecoin Developers
+// Copyright (c) 2011-2012 KatersLTC Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -37,7 +37,7 @@ Value importprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-            "importprivkey <nyancoin private key> [label]\n"
+            "importprivkey <katersltc private key> [label]\n"
             "Adds a private key (as returned by dumpprivkey) to your wallet.");
 
     string strSecret = params[0].get_str();
@@ -74,13 +74,13 @@ Value dumpprivkey(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-	    "dumpprivkey <nyancoin address>\n"
-	    "Reveals the private key corresponding to <nyancoin address>.");
+	    "dumpprivkey <katersltc address>\n"
+	    "Reveals the private key corresponding to <katersltc address>.");
 
     string strAddress = params[0].get_str();
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-	throw JSONRPCError(-5, "Invalid NyanCoin address");
+	throw JSONRPCError(-5, "Invalid KatersLTC address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(-3, "Address does not refer to a key");

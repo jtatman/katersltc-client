@@ -1,9 +1,9 @@
-Building NyanCoin
+Building KatersLTC
 
-See doc/readme-qt.rst for instructions on building nyancoin-qt,
+See doc/readme-qt.rst for instructions on building katersltc-qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of NyanCoin.
+implementation of KatersLTC.
 
-See doc/build-*.txt for instructions on building nyancoin,
+See doc/build-*.txt for instructions on building katersltc,
 the intended-for-services, no-graphical-interface, reference
-implementation of NyanCoin.
+implementation of KatersLTC.

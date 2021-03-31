@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("NYAN");
-    case mBTC: return QString("mNYAN");
-    case uBTC: return QString::fromUtf8("μNYAN");
+    case BTC: return QString("KLTC");
+    case mBTC: return QString("mKLTC");
+    case uBTC: return QString::fromUtf8("μKLTC");
     default: return QString("???");
     }
 }
@@ -45,13 +45,13 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("NyanCoin");
-    case mBTC: return QString("milliNyanCoin (1 / 1,000)");
-    case uBTC: return QString("microNyanCoin (1 / 1,000,000)");
+    case BTC: return QString("KatersLTC");
+    case mBTC: return QString("milliKatersLTC (1 / 1,000)");
+    case uBTC: return QString("microKatersLTC (1 / 1,000,000)");
     default: return QString("???");
     }
 }
-//a single unit (.00000001) of NyanCoin is called a "wander."
+//a single unit (.00000001) of KatersLTC is called a "wander."
 qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)

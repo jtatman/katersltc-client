@@ -17,12 +17,12 @@ BEGIN
     BEGIN
         BLOCK "040004b0"
         BEGIN
-            VALUE "CompanyName", "/r/NyanCoins"
-            VALUE "FileDescription", "Official NyanCoins Wallet and Client"
+            VALUE "CompanyName", "/r/KatersLTCs"
+            VALUE "FileDescription", "Official KatersLTCs Wallet and Client"
             VALUE "FileVersion", "1.3.0.0"
-            VALUE "InternalName", "NyanCoin"
-            VALUE "OriginalFilename", "NyanCoin"
-            VALUE "ProductName", "NyanCoin"
+            VALUE "InternalName", "KatersLTC"
+            VALUE "OriginalFilename", "KatersLTC"
+            VALUE "ProductName", "KatersLTC"
             VALUE "ProductVersion", "1.3.0.0"
         END
     END

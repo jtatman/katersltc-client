@@ -126,8 +126,8 @@ RPCConsole::RPCConsole(QWidget *parent) :
     // set OpenSSL version label
     ui->openSSLVersion->setText(SSLeay_version(SSLEAY_VERSION));
 
-    this->nyanapi = new NyanSpaceAPI(this);
-    connect(nyanapi, SIGNAL(getmorepeers_finished(int)), this, SLOT(getmorepeers_finished(int)));
+    //this->nyanapi = new NyanSpaceAPI(this);
+    //connect(nyanapi, SIGNAL(getmorepeers_finished(int)), this, SLOT(getmorepeers_finished(int)));
 
     startExecutor();
 
@@ -142,7 +142,7 @@ RPCConsole::~RPCConsole()
 
 void RPCConsole::getmorepeers_finished(int numPeers)
 {
-    this->message(RPCConsole::CMD_REPLY, QString("%1 peers added from nyan.space.").arg(numPeers));
+    this->message(RPCConsole::CMD_REPLY, QString("we really need some more peers. damn.").arg(numPeers));
 }
 
 bool RPCConsole::eventFilter(QObject* obj, QEvent *event)
@@ -223,7 +223,7 @@ void RPCConsole::clear()
                 "b { color: #006060; } "
                 );
 
-    message(CMD_REPLY, (tr("Welcome to the NyanCoin RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the KatersLTC RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")), true);
 }
@@ -273,7 +273,7 @@ void RPCConsole::on_lineEdit_returnPressed()
         // getmorepeers
         if(cmd.compare("getmorepeers", Qt::CaseInsensitive) == 0) {
             message(RPCConsole::CMD_REPLY, QString::fromStdString("Trying to connect to more peers ..."));
-            nyanapi->getmorepeers();
+            // nyanapi->getmorepeers();
         } else {
             emit cmdRequest(cmd);
         }

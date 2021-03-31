@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2012 Litecoin Developers
+// Copyright (c) 2011-2012 KatersLTC Developers
 // Copyright (c) 2013-2079 Dr. Kimoto Chan
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -18,6 +18,7 @@
 using namespace std;
 using namespace boost;
 
+
 //
 // Global state
 //
@@ -31,7 +32,11 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xb477d9bc0721a1b96547495404583d68123f471fdd1d4058a9adff2fa7452298");
+// uint256 hashGenesisBlock("0xb477d9bc0721a1b96547495404583d68123f471fdd1d4058a9adff2fa7452298");
+// specialized genesis block may or may not work -- CONFIG
+// uint256 hashGenesisBlock("0xa95a9bc74e9793756a347323ce3f5386ceffff972b8adef7ffff24eaf618a764");
+uint256 hashGenesisBlock("67dffb61547473d29670e350d24e1a1a862c246f3010aca58dba57c48e74b325");
+
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -52,7 +57,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "NyanCoin Signed Message:\n";
+const string strMessageMagic = "KatersLTC Signed Message:\n";
 
 double dHashesPerSec;
 int64 nHPSTimerStart;
@@ -830,18 +835,19 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 337 * COIN;
-    nSubsidy >>= (nHeight / 500000); // Nyancoin: 500k blocks
-    
+    // adjust subsidy for coin amount - CONFIG
+    int64 nSubsidy = 50 * COIN;
+    nSubsidy >>= (nHeight / 500000); // KatersLTC: 500k blocks
+    // this adjusts initial amount to coinbase  
       if(nHeight < 50){
-        nSubsidy = 67400 * COIN; // 1% premine
+        nSubsidy = 50 * COIN; // 1% premine
     }
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 3 * 60 * 60; // NyanCoin: 3 hours
-static const int64 nTargetSpacing = 60; // NyanCoin: 1 minute blocks
+static const int64 nTargetTimespan = 3 * 60 * 60; // KatersLTC: 3 hours
+static const int64 nTargetSpacing = 60; // KatersLTC: 1 minute blocks
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
 static const int64 nReTargetHistoryFact = 4; // look at 4 times the retarget
@@ -903,7 +909,7 @@ unsigned int static GetNextWorkRequired_V1(const CBlockIndex* pindexLast, const 
         return pindexLast->nBits;
     }
 
-    // Litecoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // KatersLTC: This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -1269,7 +1275,7 @@ bool CTransaction::ConnectInputs(MapPrevTx inputs,
 {
     // Take over previous transactions' spent pointers
     // fBlock is true when this is called from AcceptBlock when a new best-block is added to the blockchain
-    // fMiner is true when called from the internal nyancoin miner
+    // fMiner is true when called from the internal katersltc miner
     // ... both are false when called from CTransaction::AcceptToMemoryPool
     if (!IsCoinBase())
     {
@@ -2016,7 +2022,7 @@ bool CheckDiskSpace(uint64 nAdditionalBytes)
         string strMessage = _("Warning: Disk space is low");
         strMiscWarning = strMessage;
         printf("*** %s\n", strMessage.c_str());
-        uiInterface.ThreadSafeMessageBox(strMessage, "NyanCoin", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+        uiInterface.ThreadSafeMessageBox(strMessage, "KatersLTC", CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         StartShutdown();
         return false;
     }
@@ -2072,7 +2078,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb8;
         pchMessageStart[3] = 0xdb;
-        hashGenesisBlock = uint256("0xe81767842ce87c4f36be66b618129a8bed08a805f705c6dac689df2350926111");
+        hashGenesisBlock = uint256("0x6f333ffd9b3430b6702a4f0ca9b9b868497f5c83898d4166c8fa78e0b5887814");
     }
 
     //
@@ -2093,10 +2099,11 @@ bool LoadBlockIndex(bool fAllowNew)
     
         
         // Genesis block
-        const char* pszTimestamp = "NYAN NYAN NYAN NYAN NEW YEARS 2014";
+        const char* pszTimestamp = "KLTC KLTC KLTC KLTC 033021 BEWARE THE FOOLS OF APRIL";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
+        // original bits of bitcoin 1st transaction are 486,604,799
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 0;
         txNew.vout[0].scriptPubKey = CScript() << 0x0 << OP_CHECKSIG; // a privkey for that 'vanity' pubkey would be interesting ;)
@@ -2105,24 +2112,32 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1388708431; //epochtime
+        block.nTime    = 1617133348; //epochtime
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 183531;
+        block.nNonce   = 0;
 
         if (fTestNet)
         {
-            block.nTime    = 1388706745;
-            block.nNonce   = 84274;
+            block.nTime    = 1617133350;
+            block.nNonce   = 0;
         }
 
         //// debug print
+        printf("DEBUG this is for debugging purposes of merkle root and block hash \n");
+        printf("this is the transaction info for the first sealing: \n");
+        printf("%s\n", txNew.vin[0].scriptSig);
+        printf("%s\n", txNew.vout[0].scriptPubKey);
+        printf("this is the getHash, genesisBlockHash, and hashMerkleRoot: \n");
         printf("%s\n", block.GetHash().ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xa58c3dc45c902567682edae9a0f89717e917fb9377c4b86ead909b2416110fc6"));
+
+        // assert(block.hashMerkleRoot == uint256("0xa58c3dc45c902567682edae9a0f89717e917fb9377c4b86ead909b2416110fc6"));
+        assert(block.hashMerkleRoot == uint256("0x90f017e94dc3845afe9a11a0c8f1e20f32ae2016997a110f77827d3da381b9b6"));
 
         // If genesis block hash does not match, then generate new genesis hash.
         if (false && block.GetHash() != hashGenesisBlock)
+        // if (block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
@@ -3447,7 +3462,7 @@ CBlock* CreateNewBlock(CReserveKey& reservekey)
                 continue;
 
             // Transaction fee required depends on block size
-            // Litecoind: Reduce the exempted free transactions to 500 bytes (from Bitcoin's 3000 bytes)
+            // KatersLTCd: Reduce the exempted free transactions to 500 bytes (from Bitcoin's 3000 bytes)
             bool fAllowFree = (nBlockSize + nTxSize < 1500 || CTransaction::AllowFree(dPriority));
             int64 nMinFee = tx.GetMinFee(nBlockSize, fAllowFree, GMF_BLOCK);
 

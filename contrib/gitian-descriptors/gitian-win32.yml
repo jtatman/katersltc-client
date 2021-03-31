@@ -60,10 +60,10 @@ script: |
   export LD_PRELOAD=/usr/lib/faketime/libfaketime.so.1
   export FAKETIME=$REFERENCE_DATETIME
   export TZ=UTC
-  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build litecoind.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=litecoin"
-  i586-mingw32msvc-strip litecoind.exe
+  make -f makefile.linux-mingw $MAKEOPTS DEPSDIR=$HOME/build katersltc.exe USE_UPNP=0 DEBUGFLAGS="-frandom-seed=litecoin"
+  i586-mingw32msvc-strip katersltc.exe
   mkdir $OUTDIR/daemon
-  cp litecoind.exe $OUTDIR/daemon
+  cp katersltc.exe $OUTDIR/daemon
   cd ..
   mkdir nsis
   git archive HEAD | tar -x -C nsis

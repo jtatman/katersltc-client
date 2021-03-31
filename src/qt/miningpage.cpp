@@ -219,7 +219,7 @@ void MiningPage::minerError(QProcess::ProcessError error)
 {
     if (error == QProcess::FailedToStart)
     {
-        reportToList("Miner failed to start. Make sure you have the minerd executable and libraries in the same directory as nyancoin-qt.", ERROR, NULL);
+        reportToList("Miner failed to start. Make sure you have the minerd executable and libraries in the same directory as katersltc-qt.", ERROR, NULL);
     }
 }
 

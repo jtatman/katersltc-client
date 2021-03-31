@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-r = requests.get('https://www.nyanchain.com/pr.nyan')
+r = requests.get('http://localhost/katersnodes')
 r.raise_for_status()
 
 soup = BeautifulSoup(r.content, features="html.parser")
