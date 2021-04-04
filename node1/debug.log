@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+KatersLTC version v1.4.0.0-unk-beta (2021-01-07 04:04:57 +0100)
+Startup time: 03/31/21 17:26:54
+Default data directory /home/james/.katersltc
+Used data directory /home/james/git/katersltc-client/node1/.
+Unable to bind to [::]:21153 on this computer. KatersLTC is probably already running.
+Unable to bind to 0.0.0.0:21153 on this computer. KatersLTC is probably already running.
+KatersLTC: Unable to bind to 0.0.0.0:21153 on this computer. KatersLTC is probably already running.
+KatersLTC: Failed to listen on any port. Use -listen=0 if you want this.
+Flush(false) db not started
+StopNode()
+Flushed 0 addresses to peers.dat  39ms
+Flush(true) db not started
+KatersLTC exited
+

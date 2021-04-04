@@ -35,7 +35,9 @@ map<uint256, CBlockIndex*> mapBlockIndex;
 // uint256 hashGenesisBlock("0xb477d9bc0721a1b96547495404583d68123f471fdd1d4058a9adff2fa7452298");
 // specialized genesis block may or may not work -- CONFIG
 // uint256 hashGenesisBlock("0xa95a9bc74e9793756a347323ce3f5386ceffff972b8adef7ffff24eaf618a764");
-uint256 hashGenesisBlock("0x6702d6d986eceaf4ae5778a4c380a79450e7390bbf6cc7075af090f1c51d9240");
+// uint256 hashGenesisBlock("0x6702d6d986eceaf4ae5778a4c380a79450e7390bbf6cc7075af090f1c51d9240");
+// uint256 hashGenesisBlock("0x6fdc43b69926ff5814ad79fbb7aadc3cddfc83df7da7e39e890e3505f9c5ad56");
+uint256 hashGenesisBlock("0x49787d0fc186606b6b5a879800233ba2fe03aacaf343a52524d26a87812482e1");
 
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -2078,7 +2080,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[1] = 0xc0;
         pchMessageStart[2] = 0xb8;
         pchMessageStart[3] = 0xdb;
-        hashGenesisBlock = uint256("0x67dffb61547473d29670e350d24e1a1a862c246f3010aca58dba57c48e74b325");
+        hashGenesisBlock = uint256("0x99f52ac1d5f80dd96e5cbafcb8c19c516d06e0eba72f0d01d8e3073deffe9272");
     }
 
     //
@@ -2099,7 +2101,7 @@ bool LoadBlockIndex(bool fAllowNew)
     
         
         // Genesis block
-        const char* pszTimestamp = "KLTC KLTC KLTC KLTC 033021 BEWARE THE FOOLS OF APRIL";
+        const char* pszTimestamp = "NYAN NYAN NYAN NYAN 040121 BEWARE THE FOOLS OF APRIL";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2112,28 +2114,29 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1617133348; //epochtime
+        block.nTime    = 1617322329; //epochtime
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 0;
-/*
+        block.nNonce   = 1;
+
         if (fTestNet)
         {
-            block.nTime    = 1617133350;
-            block.nNonce   = 0;
+            block.nTime    = 1617322429;
+            block.nNonce   = 1;
         }
-*/
+
         //// debug print
         printf("DEBUG this is for debugging purposes of merkle root and block hash \n");
         printf("this is the transaction info for the first sealing: \n");
-        printf("%s\n", txNew.vin[0].scriptSig);
-        printf("%s\n", txNew.vout[0].scriptPubKey);
+        printf("%s\n", txNew.vin[0].scriptSig.ToString().c_str());
+        printf("%s\n", txNew.vout[0].scriptPubKey.ToString().c_str());
         printf("this is the getHash, genesisBlockHash, and hashMerkleRoot: \n");
         printf("%s\n", block.GetHash().ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
 
         // assert(block.hashMerkleRoot == uint256("0xa58c3dc45c902567682edae9a0f89717e917fb9377c4b86ead909b2416110fc6"));
-        assert(block.hashMerkleRoot == uint256("0xf7cfb91fa1eaf7c97380c13cf721390b1e0d37adb57bb3ff3da5f172825b7550"));
+        //assert(block.hashMerkleRoot == uint256("0xf7cfb91fa1eaf7c97380c13cf721390b1e0d37adb57bb3ff3da5f172825b7550"));
+        assert(block.hashMerkleRoot == uint256("0x09350c458abf7969a421ea8ab040a18bfff308e8c248fc2ce579247a1d8dfa79"));
 
         // If genesis block hash does not match, then generate new genesis hash.
         if (false && block.GetHash() != hashGenesisBlock)

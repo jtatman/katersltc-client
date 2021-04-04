@@ -4,3 +4,7 @@ release/
 debug/
 /object_script*
 /Makefile*
+.lock
+database/
+*.dat
+db.log

@@ -81,7 +81,7 @@ void* Shutdown(void* parg)
         delete pwalletMain;
         CreateThread(ExitTimeout, NULL);
         Sleep(50);
-        printf("KatersLTC exited\n\n");
+        printf("Oh hells no! You hit the RED BUTTON!\n\n");
         fExit = true;
 #ifndef QT_GUI
         // ensure non UI client get's exited here, but let Bitcoin-Qt reach return 0; in bitcoin.cpp

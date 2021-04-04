@@ -22,7 +22,7 @@ RUN mkdir .katersltc && \
     (tr -cd '[:alnum:]' < /dev/urandom | fold -w30 | head -n1 >> .katersltc/katersltc.conf) && \
     cat /root/.katersltc/katersltc.conf
 
-EXPOSE 33700 33701
+EXPOSE 33666 33667
 VOLUME [ "/root/.katersltc" ]
 
-ENTRYPOINT ["katersltcd", "-detachdb", "-printtoconsole"]
+ENTRYPOINT ["katersltcd", "-detachdb", "-printtoconsole", "-debug", "-netdebug", "-logtimestamps", "-gen"]

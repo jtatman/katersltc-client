@@ -1,0 +1,3551 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+KatersLTC version v1.4.0.0-unk-beta (2021-01-07 04:04:57 +0100)
+Startup time: 04/01/2021 17:09:44
+Default data directory /home/james/.katersltc
+Used data directory /home/james/git/katersltc-client/./.katersltc
+Bound to [::]:0
+Bound to 0.0.0.0:0
+Loading block index...
+dbenv.open LogDir=/home/james/git/katersltc-client/./.katersltc/database ErrorFile=/home/james/git/katersltc-client/./.katersltc/db.log
+DEBUG this is for debugging purposes of merkle root and block hash 
+this is the transaction info for the first sealing: 
+486604799 4 4b4c5443204b4c5443204b4c5443204b4c544320303333303231204245574152452054484520464f4f4c53204f4620415052494c
+0 OP_CHECKSIG
+this is the getHash, genesisBlockHash, and hashMerkleRoot: 
+6fdc43b69926ff5814ad79fbb7aadc3cddfc83df7da7e39e890e3505f9c5ad56
+6fdc43b69926ff5814ad79fbb7aadc3cddfc83df7da7e39e890e3505f9c5ad56
+f7cfb91fa1eaf7c97380c13cf721390b1e0d37adb57bb3ff3da5f172825b7550
+CBlock(hash=6fdc43b69926ff5814ad, PoW=0d7be9a102e41901c16b, ver=1, hashPrevBlock=00000000000000000000, hashMerkleRoot=f7cfb91fa1, nTime=1617258286, nBits=1e0ffff0, nNonce=1, vtx=1)
+  CTransaction(hash=f7cfb91fa1, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, -1), coinbase 04ffff001d0104344b4c5443204b4c5443204b4c5443204b4c544320303333303231204245574152452054484520464f4f4c53204f4620415052494c)
+    CTxOut(error)
+  vMerkleTree: f7cfb91fa1 
+SetBestChain: new best=6fdc43b69926ff5814ad  height=0  work=1048592  date=04/01/2021 06:24:46
+ block index             774ms
+Loading wallet...
+nFileVersion = 1040000
+Performing wallet upgrade to 60000
+keypool added key 1, size=1
+keypool added key 2, size=2
+keypool added key 3, size=3
+keypool added key 4, size=4
+keypool added key 5, size=5
+keypool added key 6, size=6
+keypool added key 7, size=7
+keypool added key 8, size=8
+keypool added key 9, size=9
+keypool added key 10, size=10
+keypool added key 11, size=11
+keypool added key 12, size=12
+keypool added key 13, size=13
+keypool added key 14, size=14
+keypool added key 15, size=15
+keypool added key 16, size=16
+keypool added key 17, size=17
+keypool added key 18, size=18
+keypool added key 19, size=19
+keypool added key 20, size=20
+keypool added key 21, size=21
+keypool added key 22, size=22
+keypool added key 23, size=23
+keypool added key 24, size=24
+keypool added key 25, size=25
+keypool added key 26, size=26
+keypool added key 27, size=27
+keypool added key 28, size=28
+keypool added key 29, size=29
+keypool added key 30, size=30
+keypool added key 31, size=31
+keypool added key 32, size=32
+keypool added key 33, size=33
+keypool added key 34, size=34
+keypool added key 35, size=35
+keypool added key 36, size=36
+keypool added key 37, size=37
+keypool added key 38, size=38
+keypool added key 39, size=39
+keypool added key 40, size=40
+keypool added key 41, size=41
+keypool added key 42, size=42
+keypool added key 43, size=43
+keypool added key 44, size=44
+keypool added key 45, size=45
+keypool added key 46, size=46
+keypool added key 47, size=47
+keypool added key 48, size=48
+keypool added key 49, size=49
+keypool added key 50, size=50
+keypool added key 51, size=51
+keypool added key 52, size=52
+keypool added key 53, size=53
+keypool added key 54, size=54
+keypool added key 55, size=55
+keypool added key 56, size=56
+keypool added key 57, size=57
+keypool added key 58, size=58
+keypool added key 59, size=59
+keypool added key 60, size=60
+keypool added key 61, size=61
+keypool added key 62, size=62
+keypool added key 63, size=63
+keypool added key 64, size=64
+keypool added key 65, size=65
+keypool added key 66, size=66
+keypool added key 67, size=67
+keypool added key 68, size=68
+keypool added key 69, size=69
+keypool added key 70, size=70
+keypool added key 71, size=71
+keypool added key 72, size=72
+keypool added key 73, size=73
+keypool added key 74, size=74
+keypool added key 75, size=75
+keypool added key 76, size=76
+keypool added key 77, size=77
+keypool added key 78, size=78
+keypool added key 79, size=79
+keypool added key 80, size=80
+keypool added key 81, size=81
+keypool added key 82, size=82
+keypool added key 83, size=83
+keypool added key 84, size=84
+keypool added key 85, size=85
+keypool added key 86, size=86
+keypool added key 87, size=87
+keypool added key 88, size=88
+keypool added key 89, size=89
+keypool added key 90, size=90
+keypool added key 91, size=91
+keypool added key 92, size=92
+keypool added key 93, size=93
+keypool added key 94, size=94
+keypool added key 95, size=95
+keypool added key 96, size=96
+keypool added key 97, size=97
+keypool added key 98, size=98
+keypool added key 99, size=99
+keypool added key 100, size=100
+keypool added key 101, size=101
+keypool reserve 1
+keypool keep 1
+ wallet                31517ms
+Loading addresses...
+ERROR: CAddrman::Read() : open failed
+Invalid or missing peers.dat; recreating
+Loaded 0 addresses from peers.dat  0ms
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 100
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+send version message: version 60001, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:0
+AddLocal([2001:470:ba02::c1a]:0,1)
+IPv6 wlp2s0: 2001:470:ba02::c1a
+AddLocal([2001:470:ba02:0:d9fd:26b0:d850:d6c6]:0,1)
+IPv6 wlp2s0: 2001:470:ba02:0:d9fd:26b0:d850:d6c6
+AddLocal([2001:470:ba02:0:1a9c:6a1d:9969:7da7]:0,1)
+IPv6 wlp2s0: 2001:470:ba02:0:1a9c:6a1d:9969:7da7
+Done loading
+refreshWallet
+ThreadDNSAddressSeed started
+Loading addresses from DNS seeds (could take a while)
+ThreadMessageHandler started
+ThreadSocketHandler started
+ThreadOpenAddedConnections started
+ThreadOpenAddedConnections exited
+ThreadOpenConnections started
+Added 2 addresses from 2a00:d880:6:342::a100: 0 tried, 2 new
+2 addresses found from DNS seeds
+ThreadDNSAddressSeed exited
+Flushed 2 addresses to peers.dat  266ms
+ipcThread started
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+Flushing wallet.dat
+Flushed wallet.dat 286ms
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+connection timeout
+ERROR: GetMyExternalIP() : connection to 91.198.22.70:80 failed
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+GetMyExternalIP() received [] [::]:0
+connect() failed after select(): Connection refused
+GetMyExternalIP() received [142.79.100.168] 142.79.100.168:0
+GetMyExternalIP() returned 142.79.100.168
+AddLocal(142.79.100.168:0,5)
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=123.9hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  67ms
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+Flushed 2 addresses to peers.dat  198ms
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+Flushed 2 addresses to peers.dat  128ms
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  93ms
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.0hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  114ms
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  84ms
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.3hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  169ms
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  70ms
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.1hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  135ms
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+Flushed 2 addresses to peers.dat  93ms
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.4hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection [2a00:d880:6:342::a100]:21153 lastseen=162.5hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+trying connection 81.4.103.214:21153 lastseen=124.2hrs
+connect() failed after select(): Connection refused
+Flush(false)
+blkindex.dat refcount=0
+ipcThread exited
+ThreadMessageHandler exited
+blkindex.dat checkpoint
+ThreadSocketHandler exited
+blkindex.dat closed
+DBFlush(false) ended             156ms
+StopNode()
+ThreadOpenConnections exited
+Flushed 2 addresses to peers.dat  1ms
+Flush(true)
+DBFlush(true) ended               0ms
+KatersLTC exited
+

@@ -1,0 +1,24 @@
+Flush(false) db not started
+StopNode()
+Flushed 0 addresses to peers.dat  48ms
+Flush(true) db not started
+KatersLTC exited
+
+Flush(false) db not started
+StopNode()
+Flushed 0 addresses to peers.dat  41ms
+Flush(true) db not started
+KatersLTC exited
+
+Flush(false) db not started
+StopNode()
+Flushed 0 addresses to peers.dat  90ms
+Flush(true) db not started
+KatersLTC exited
+
+Flush(false) db not started
+StopNode()
+Flushed 0 addresses to peers.dat  86ms
+Flush(true) db not started
+KatersLTC exited
+
